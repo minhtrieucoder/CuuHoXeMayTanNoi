@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    header .header-top {
+        height: 34px;
+    }
+
+    header .header-top img {
+        width: 40%;
+    }
+
+    header .header-top marquee {
+        font-size: 16px;
+    }
+    .call-btn,
+    .zalo-btn {
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+    
+    header nav {
+        display: none;
+    }
+
+    #main #info {
+        display: block;
+        padding: 60px 12px;
+    }
+
+    #main #info .box {
+        width: auto;
+        margin: 22px 16px;
+    }
+
+    #main #about {
+        display: block;
+        padding: 60px 36px;
+        text-align: center;
+    }
+    #main #about h2,
+    #main #typexe h2, 
+    #main #service h2 {
+        font-size: 30px;
+    }
+
+    #main #about img {
+        width: 100%;
+        padding: 20px 10px;
+    }   
+
+    #main #service {
+        padding: 0px 32px;
+
+    }
+
+    #main #service .service-content {
+        display: block;
+        margin-bottom: 64px;
+    }
+
+    #main #service .service-content .box {
+        width: 100%;
+        padding: 12px 8px;
+    }
+
+    #main #service .service-content .box:first-child {
+        margin-bottom: 40px;
+    }
+
+    #main #pic {
+        display: block;
+        text-align: center;
+        /* padding: 0px 30px 60px; */
+    }
+
+    #main #pic img {
+        width: 90%;
+        margin-bottom: 12px;
+    }
+
+    #main #typexe {
+        display: block;
+        padding: 0px 32px;
+    }
+
+    #main #typexe div:first-child {
+        width: 100%;
+        padding: 0;
+    }
+
+    #main #typexe p {
+        max-width: 100%;
+    }
+
+    #main #typexe div span img {
+        width: 20%;
+        margin-bottom: 12px;
+    }
+
+    footer {        
+        padding: 0px;
+    }
+
+    footer .row1 {
+        display: block;
+        padding: 44px 20px 20px 36px;
+    }
+
+    footer .row1 .col {
+        width: 100% !important;
+    }
+    
+    footer .row1 .col .section {
+        margin-bottom: 42px;
+    }
+
+    footer .row1 .col .section h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+
+    footer .map iframe {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    footer .copyrights p {
+        font-size: 14px;
+        padding: 12px;
+        margin-top: 0px;
+    }
+}
